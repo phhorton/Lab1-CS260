@@ -1,1 +1,21 @@
+div {
+        margin: 25px;
+}
+h1 {
+        color: blue;
+	text-align: center;
+        background-color: red;
+	font-style: italic;
+}
+h2 {
+        border-bottom: 6px dotted green;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 
+.rotate90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
